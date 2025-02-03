@@ -44,4 +44,5 @@ What is the optimal way of matching weights ?
 so that we minimize the number of gondolas? An intuitive way to figure this out is to ask ourselves who best matches the heaviest children ?
 It has to be the lightest. It's easy to match two light children but it's much harder to match two heavy children. 
 Therefore, it is optimal to try to match a light children with a heavy children.
+and then even if there are childeren then we should manually add them
 */
