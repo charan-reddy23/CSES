@@ -49,4 +49,6 @@ int main() {
 What is the optimal way to match applicants with appropriate housing? To answer this question, one must make an observation.
 If possible, the smallest apartment should be given to the applicant who needs less space. 
 This is true because if we give it to another applicant, we may lose the opportunity to give housing to the applicant who needs less space.
+TC : O(max(n,m) * log(max(n,m))
+SC : O(max(n,m))
 */
