@@ -11,10 +11,6 @@ ostream &operator<<(ostream &ostream, vector<T> &v){for (auto &it : v) cout << i
 int main() {
     ios_base::sync_with_stdio(false); cin.tie(NULL);
 
-    #ifndef ONLINE_JUDGE
-        freopen("input.txt", "r", stdin);
-        freopen("output.txt", "w", stdout);
-    #endif
     int n, x; cin >> n >> x;
     vector<int>w(n);
     cin >> w;
